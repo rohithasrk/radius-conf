@@ -5,8 +5,7 @@ use POSIX;
 # use ...
 # This is very important !
 use vars qw(%RAD_CHECK);
-use constant RLM_MODULE_OK=> 2;# /* the module is OK,
-continue */
+use constant RLM_MODULE_OK=> 2;# /* the module is OK, continue */
 use constant RLM_MODULE_NOOP=> 7;
 use constant RLM_MODULE_UPDATED=> 8;# /* OK (pairs modified) */
 
